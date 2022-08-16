@@ -55,4 +55,4 @@ Profile의 component를 정의했으므로 이제 다른 Component 안에 중첩
 
 Component는 일반적인 JavaScript 함수이므로 동일한 파일에 여러 component를 넣을 수 있습니다. 이는 component가 상대적으로 작거나 서로 밀접하게 관련되어 있는 경우에 편리합니다. 이 파일이 꽉 차면 언제든지 Profile을 별도의 파일로 이동할 수 있습니다. Import에 대한 페이지에서 이 작업을 수행하는 방법을 곧 배우게 될 것입니다.
 
-Profile 구성 요소는 Gallery 내에서 여러 번 렌더링되기 때문에 Gallery는 각 Profile을 "자식"으로 렌더링하는 상위 구성 요소라고 말할 수 있습니다. 이것은 React의 마법의 일부입니다. Component를 한 번 정의한 다음 원하는 만큼 여러 위치에서 사용할 수 있습니다.
+Profile Component는 Gallery 내에서 여러 번 렌더링되기 때문에 Gallery는 각 Profile을 "자식"으로 렌더링하는 상위 구성 요소라고 말할 수 있습니다. 이것은 React의 마법의 일부입니다. Component를 한 번 정의한 다음 원하는 만큼 여러 위치에서 사용할 수 있습니다.
